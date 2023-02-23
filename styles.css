@@ -3,6 +3,7 @@ body {
     color: white;
     font-family: sans-serif;    
     margin: 0;
+    padding: 20px;
 }
 
 body a {
@@ -24,14 +25,14 @@ body a {
     padding-inline-start: 0;
 }
 
-li {
+.nav-item {
     background-color: black;
     padding: 25px;
     width: 100%;
     text-align: center;
 }
 
-li:hover {
+.nav-item:hover {
     background-color: rgb(115, 115, 115);
 }
 
@@ -43,4 +44,45 @@ section {
     display: flex;
     justify-content: center;
     width: 100%;
+}
+
+.checklist li {
+    list-style-type: none;
+}
+
+.heading-list {
+    color: rgba(124, 218, 99, 0.777);
+}
+
+.img-container {
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.img-container img {
+    border-radius: 10px;
+    border: 2px solid grey;
+}
+
+.text-block {
+    border-bottom: 2px solid grey;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 100%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
 }
